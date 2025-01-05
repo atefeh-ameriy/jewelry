@@ -39,6 +39,20 @@ function Navbar() {
 
   const [navLink,setNavLink] = useState( Navdetail[0])
 
+  useEffect(()=>{
+    const handleResize = ()=>{
+      if (window.innerWidth < 768){
+        setIsOpen(false)
+              }
+    }
+    window.addEventListener('resize',handleResize)
+
+    return()=>{
+      window.removeEventListener('resize',handleResize)
+    }
+   },[])
+
+
   const onScroll = () => {
     if (window.scrollY > 150) {
       setDisplaymenu(true);
