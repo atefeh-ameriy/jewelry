@@ -1,5 +1,5 @@
 // Prevent default right-click menu behavior
-document.addEventListener("contextmenu", function (event) {
+/*document.addEventListener("contextmenu", function (event) {
   event.preventDefault();
 });
 
@@ -28,4 +28,4 @@ document.addEventListener('keydown', function (event) {
 }
 
 document.onkeydown = testKeyCode;
-});
+});*/
