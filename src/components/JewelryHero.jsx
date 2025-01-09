@@ -13,7 +13,7 @@ function JewelryHero() {
       { /**/}
         <div className="wrapper  ">
           <div className="button animate-float">
-          <div className="icon ">
+          <div className="icon  hover:bg-gray-800 ">
             <IoMdPricetags className="icon"/>
           </div>
           <span  className="text-sm">1,500,000تومان</span>
@@ -27,7 +27,7 @@ function JewelryHero() {
         <p className=" font-normal   w-5/6 pt-6 leading-8 " >جواهری ریرا با بیش از ۲۵ سال تجربه در زمینه فروش جواهرات و اکسسوری‌های برتر، به عنوان یکی از پیشگامان صنعت، به مشتریان خود تضمین می‌کند که تنها بهترین و با کیفیت‌ترین محصولات را ارائه می‌دهد. با توجه به دقت و انتخاب دقیق محصولات، جواهری ریرا به عنوان یک منبع معتبر برای اکسسوری‌های استثنایی شناخته می‌شود.. </p>
         <div className="text-2xl font-extrabold md:text-3xl">20% تخفیف </div>
         <div className="space-x-10 ">
-          <button className=" h-14 w-44 bg-black text-white hover:bg-gray-900 active:bg-gray-700 m-l-5 mt-9">
+          <button className=" h-14 w-44 bg-black text-white hover:bg-gray-800 active:bg-gray-700 m-l-5 mt-9">
             همین الان خرید کن!
           </button>
           <a href="" className="text-lg font-bold underline underline-offset-4 gap-8">

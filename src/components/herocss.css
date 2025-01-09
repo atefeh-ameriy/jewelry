@@ -50,7 +50,6 @@ line-height: 40px;
 }
 .wrapper:hover  .button > .icon{
     border-radius: 10px;
-background-color: rgb(27, 26, 26);
     height:40px;width:40px;
     position: absolute;
     top: 0;right: 0;

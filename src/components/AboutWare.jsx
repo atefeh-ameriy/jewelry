@@ -11,7 +11,7 @@ function AboutWare() {
         {/**/}
         <div className="wrapper  ">
           <div className="button animate-float">
-            <div className="icon ">
+            <div className="icon hover:bg-gray-800">
               <IoMdPricetags className="icon" />
             </div>
             <span className="text-sm">1,500,000تومان</span>
@@ -32,7 +32,7 @@ function AboutWare() {
         </p>
         <div className="text-2xl font-extrabold md:text-1xl ">با ما در ارتباط باشین</div>
         <div className="space-x-10 ">
-          <button className=" h-14 w-44 bg-black text-white hover:bg-gray-900 active:bg-gray-700 m-l-5 ">
+          <button className=" h-14 w-44 bg-black text-white hover:bg-gray-800 active:bg-gray-700 m-l-5 ">
             تماس با ما
           </button>
           <a
